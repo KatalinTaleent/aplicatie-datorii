@@ -4,8 +4,8 @@ app = Flask(__name__)
 
 @app.route("/")
 
-def index():
-    return "Soon"
+def titlu():
+    return "Aplicație pentru datorii" 
 
 if __name__ == "main":
     app.run()
