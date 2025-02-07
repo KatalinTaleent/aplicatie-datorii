@@ -6,3 +6,6 @@ app = Flask(__name__)
 
 def index():
     return "Soon"
+
+if __name__ == "main":
+    app.run()
